@@ -1,0 +1,44 @@
+
+body {
+  background-image: url(../img/exercito.jpg);
+}
+
+div.quadrado {
+  border: 2px solid black;
+  border-radius: 30px;
+  display: inline-block;
+  width: 700px;
+  height: 700px;
+}
+
+div#q1 {
+background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#q1:hover {
+  background-color: black;
+}
+
+div#q2 {
+background-color: aqua;
+}
+
+div#q2:hover {
+  background-color: black;
+}
+
+/* div 2 sem margin de erro*/
+div#q2:active {
+  background-color: brown;
+}
+
+div#q3 {
+  
+background-image: url(../img/pattern004.png);
+}
+
+div#q4 {
+  height: 700px;
+  width: 700px;
+background-image: url(../img/meme.jfif);
+}
