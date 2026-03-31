@@ -1,44 +1,109 @@
+@charset "UTF-8";
 
-body {
-  background-image: url(../img/exercito.jpg);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Datatype:wght@100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Datatype:wght@100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Trispace:wght@100..800&display=swap');
+
+:root {
+    --fonte-padrao: 'Quicksand', sans-serif, "cursive";
+    --fonte-destaque: 'Playfair Display', serif, "cursive";
 }
 
-div.quadrado {
-  border: 2px solid black;
-  border-radius: 30px;
-  display: inline-block;
-  width: 700px;
-  height: 700px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-div#q1 {
-background-image: linear-gradient(to bottom, yellow, red);
+html body {
+    background-color: rgb(204, 196, 196);
+    
 }
 
-div#q1:hover {
-  background-color: black;
+header {
+    background-color: #000;
+   color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
-div#q2 {
-background-color: aqua;
+header h1 {
+    font-variant: small-caps;
+    font-size: 20px;
 }
 
-div#q2:hover {
-  background-color: black;
+section p {
+    margin-left: 20px;
+    font-family: cursive;
+    text-shadow: #000000 0px 2px 3px;
 }
 
-/* div 2 sem margin de erro*/
-div#q2:active {
-  background-color: brown;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flexbox;
+    padding: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
 }
 
-div#q3 {
-  
-background-image: url(../img/pattern004.png);
+.imagem p {
+    margin-top: 30px;
+    padding: 9px;
+    background-color: #0000003a;
+    margin-bottom: 50px;
+    border-radius: 2px 2px 2px 2px;
+    color: rgb(212, 207, 207);
 }
 
-div#q4 {
-  height: 700px;
-  width: 700px;
-background-image: url(../img/meme.jfif);
+#imagem {
+    background-image: url(../img/foto\ de\ flor\ cordel.jpg!d);
+    background-size:cover;
+    background-position: center left;
+    height: 60vh;
+    display: flex;
+   background-attachment: fixed;
+}
+
+.imagem2 p {
+    margin-top: 30px;
+    padding: 9px;
+    background-color: #0000003a;
+    margin-bottom: 50px;
+    border-radius: 2px 2px 2px 2px;
+    color: rgb(212, 207, 207);
+}
+
+
+#imagem2 {
+    background-image: url(../img/livro\ aberto.jpg);
+    background-size:cover;
+    background-position: center left;
+    height: 60vh;
+    display: flex;
+   background-attachment: fixed;
+}
+
+a {
+    color: #462ba8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3526b6;
+    text-decoration: underline;
+}
+
+footer a {
+    color: #2041b1;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: -21px;
+    margin-left: -23px;
+    margin-right: -20px;
 }
